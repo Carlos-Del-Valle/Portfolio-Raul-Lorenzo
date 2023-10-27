@@ -1,83 +1,30 @@
-import React, { useEffect, useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React from "react";
+import { NavLink } from "react-router-dom";
+
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-//import './App.scss'
 
 const NavBar = () => {
   return (
-    <aside>
-      <div className="fixed top-0 left-0 h-screen w-32 m-0 flex flex-col bg-black text-white shadow-lg">
-        <Link to="">
-          <p className="relative flex items-center justify-center">
-            Raul Lorenzo
-          </p>
-        </Link>
-        <ul>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="statement"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Statement
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="dos"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Dos
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="tres"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Tres
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="cuatro"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Cuatro
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="contacto"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Contacto
-            </Link>
-          </li>
+    <nav className="flex border-2 border-red-500 w-screen h-16 items-center justify-between px-8 sticky top-0 self-start z-10  bg-zinc-100">
+
+        <div className="flex flex-row border-2 border-green-500"> 
+            <NavLink end to="/">Raul Lorenzo</NavLink>
+        </div>
+
+        <ul className="flex flex-row border-2 border-blue-500 gap-8">
+            <li>
+                <NavLink to="/exhibitions">Exhibitions</NavLink>
+            </li>
+            <li>
+                <NavLink to="/writings">Writings</NavLink>
+            </li>
+            <li>
+                <NavLink to="/cv">CV + Contact</NavLink>
+            </li>
+           {/* Add Here IG link or whatever */}
         </ul>
-      </div>
-    </aside>
+        
+    </nav>
   );
 };
 

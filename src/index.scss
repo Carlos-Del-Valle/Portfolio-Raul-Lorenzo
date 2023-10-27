@@ -2,21 +2,38 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+// Background color -> rgba(255, 255, 255, 0.87)  Tailwind chosen value: bg-zinc-100 #f4f4f5
+// Text color ->  rgb(27, 18, 18) Tailwind chosen value: text-slate-950 #020617
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+
+ 
+}
+
+* ::-webkit-scrollbar{
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+
+
 @layer components{
   .nav-item {
-    @apply relative flex items-center justify-center h-12 w-24 mt-2 mb-2 mx-auto shadow-lg  
-   text-red-500
-   hover:bg-red-600
-   hover:text-black
+    @apply relative flex items-center justify-center h-12 w-44 mx-auto  
+   hover:bg-slate-950
+   hover:text-zinc-100
     rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
 
   .nav-item .active {
-     @apply relative flex items-center justify-center h-12 w-24 mt-2 mb-2 mx-auto shadow-lg  
-   text-red-500
-   hover:bg-red-600
-   hover:text-black
-    rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+     @apply
+      
+   font-bold
+   rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+   
+   
 }
 }
 
@@ -24,7 +41,9 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none
 }
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -32,24 +51,29 @@ html {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #e0e0e0;
+  //color: rgba(255, 255, 255, 0.87);
+  color:#020617;
+  //background-color: #e0e0e0;
+  background-color: #f4f4f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
   -webkit-text-size-adjust: 100%;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  //color: #646cff;
+  //color:#020617;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
+// a:hover {
+//   color: #535bf2;
+// }
 
 body {
   margin: 0;
@@ -57,6 +81,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overscroll-behavior: none;
 }
 
 h1 {

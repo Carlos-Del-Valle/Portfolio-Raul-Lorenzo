@@ -1,21 +1,28 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import MainBody from "./components/MainBody";
+import Exhibitions from "./components/Exhibitions";
+import Writings from "./components/Writings";
+import CV from "./components/CV";
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
-      <div className="flex">
-        <NavBar />
-        <MainBody />
-      </div>
-    </BrowserRouter>
+    
+    
+    
+    
+    <Router>
+      <NavBar/>
+      <Routes>
+        <Route path="/exhibitions" element={<Exhibitions/>}/>
+        <Route path="/writings" element={<Writings/>}/>
+        <Route path="/cv" element={<CV/>}/>     
+        <Route path="/" element={<Exhibitions/>}/>
+      </Routes>
+    </Router>
+    
   );
 }
 
