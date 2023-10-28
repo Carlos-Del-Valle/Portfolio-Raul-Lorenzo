@@ -7,7 +7,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const NavSideBarWritings = () => {
   return (
-    <nav className="sticky top-0 self-start left-0 w-56 m-0 shadow-lg border border-violet-500 ">
+    <nav className="sticky top-16 self-start left-0 w-56 m-0 shadow-lg border border-violet-500 ">
         <ul className=" my-12 flex flex-col space-y-8">
           
           {/* 1 - Given Time */}
