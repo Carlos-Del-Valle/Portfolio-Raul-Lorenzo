@@ -27,14 +27,11 @@
     rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
 
-  .nav-item .active {
-     @apply
-      
-   font-bold
-   rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
-   
-   
+  .nav-item .active{
+     @apply font-bold rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
 }
+
+
 }
 
 

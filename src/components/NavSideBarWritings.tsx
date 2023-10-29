@@ -11,7 +11,7 @@ const NavSideBarWritings = () => {
         <ul className=" my-12 flex flex-col space-y-8">
           
           {/* 1 - Given Time */}
-          <li>
+          <li className="nav-item">
             <Link
               activeClass="active"
               to="giventime"
@@ -26,7 +26,7 @@ const NavSideBarWritings = () => {
             </Link>
           </li>
           {/* 2 - Hacer Despues */}
-          <li>
+          <li className="nav-item">
             <Link
               activeClass="active"
               to="hacerdespues"
@@ -41,7 +41,7 @@ const NavSideBarWritings = () => {
             </Link>
           </li>
           {/*3 - Un Puente Une */}
-          <li>
+          <li className="nav-item">
             <Link
               activeClass="active"
               to="unpuenteune"
@@ -57,7 +57,7 @@ const NavSideBarWritings = () => {
             </Link>
           </li>
           {/* 4 - Formas de Empezar un Cuento */}
-          <li>
+          <li className="nav-item">
             <Link
               activeClass="active"
               to="formasdeempezaruncuento"
@@ -72,7 +72,7 @@ const NavSideBarWritings = () => {
             </Link>
           </li>
           {/* 5 - Corazon Y Ornamento */}
-          <li>
+          <li className="nav-item">
             
             <Link
               activeClass="active"
