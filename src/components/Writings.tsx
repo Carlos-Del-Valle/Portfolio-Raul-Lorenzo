@@ -5,9 +5,9 @@ import NavSideBarWritings from './NavSideBarWritings'
 
 const Writings = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-full">
         <NavSideBarWritings/>
-        <main className="border border-fuchsia-950 mx-auto justify-center align-center">
+        <main className="mx-auto justify-center align-center">
             {/* Writings */}
             <section className="writings mx-32 my-24 flex flex-col">
                 {/* 1 - Given Time */}
