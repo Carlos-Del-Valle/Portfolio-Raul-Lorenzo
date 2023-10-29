@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import NavSideBar from "./NavSideBar";
 import MainBody from "./MainBody";
 
@@ -8,7 +8,7 @@ const Exhibitions = () => {
       <NavSideBar />
       <MainBody />
     </div>
-  )
-}
+  );
+};
 
-export default Exhibitions
+export default Exhibitions;

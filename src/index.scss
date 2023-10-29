@@ -7,19 +7,15 @@
 
 * {
   box-sizing: border-box;
-  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
-  scrollbar-width: none;  /* Hide scrollbar for Firefox */
-
- 
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
 
-* ::-webkit-scrollbar{
+* ::-webkit-scrollbar {
   display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
-
-
-@layer components{
+@layer components {
   .nav-item {
     @apply relative flex items-center justify-center h-12 w-44 mx-auto  
    hover:bg-slate-950
@@ -27,20 +23,15 @@
     rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
 
-  .nav-item .active{
-     @apply font-bold rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  .nav-item .active {
+    @apply font-bold rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
 }
-
-
-}
-
-
 
 html {
   scroll-behavior: smooth;
-  overscroll-behavior: none
+  overscroll-behavior: none;
 }
-
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -49,7 +40,7 @@ html {
 
   color-scheme: light dark;
   //color: rgba(255, 255, 255, 0.87);
-  color:#020617;
+  color: #020617;
   //background-color: #e0e0e0;
   background-color: #f4f4f5;
 
@@ -106,7 +97,6 @@ button:focus-visible {
 }
 
 .nav-item .active {
-  
 }
 
 @media (prefers-color-scheme: light) {
