@@ -1,125 +1,133 @@
-import React from "react";
-import NavSideBarWritings from "./NavSideBarWritings";
-
 const CV = () => {
   return (
-    <div className="flex flex-row mx-16 border border-pink-700">
+    <div className="flex flex-row mx-16 space-x-4">
       {/* CV */}
-      <main className="my-12 border border-blue-900">
-        <h2 className="text-4xl font-semibold italic font-sans">CV</h2>
-        <section className="">
-          <ul>
-            <li>-Master of Arts in Art Production, UPV, Valencia</li>
-            <li>-Bachelor of Arts in Fine Arts, Salamanca</li>
-            <li>-Founder and curator, Saceca, Sagunto</li>
+      <main className="my-12 w-9/12">
+        <h2 className="text-4xl font-sans mb-6">Curriculum Vitae</h2>
+        <section className="ml-2 mb-8">
+          <ul className="ml-2">
+            <li>&#8208; Master of Arts in Art Production, UPV, Valencia</li>
+            <li>&#8208; Bachelor of Arts in Fine Arts, Salamanca</li>
+            <li>&#8208; Founder and curator, Saceca, Sagunto</li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Residencies</h4>
-          <ul>
-            <li>-Bilbaoarte, Bilbao 2017</li>
-            <li>-Residencias A Quemarropa, Alicante 2016</li>
-            <li>-Espacio Matrioska, Os Blancos (Ourense), 2015</li>
+        <section className="ml-2 mb-8">
+          <h4 className="ml-2 mb-2 font-semibold">Residencies</h4>
+          <ul className="ml-4">
+            <li>&#8208; Bilbaoarte, Bilbao 2017</li>
+            <li>&#8208; Residencias A Quemarropa, Alicante 2016</li>
+            <li>&#8208; Espacio Matrioska, Os Blancos (Ourense), 2015</li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Awards and calls</h4>
-          <ul>
+        <section className="ml-2 mb-8">
+          <h4 className="ml-2 mb-2 font-semibold">Awards and calls</h4>
+          <ul className="ml-4">
             <li>
-              -III Becas Fundación Villalar –Castilla y León de creación
+            &#8208; III Becas Fundación Villalar –Castilla y León de creación
               artística contemporánea. Valladolid 2019
             </li>
-            <li>-PAMPAM! 2017. Valencia</li>
-            <li>-Beca Fundación Carmen Izquierdo. Valencia, 2017.</li>
-            <li>-Transportarte. Valencia, 2017</li>
-            <li>-Jóvenes pintores. La Gaceta, Salamanca, 2015</li>
+            <li>&#8208; PAMPAM! 2017. Valencia</li>
+            <li>&#8208; Beca Fundación Carmen Izquierdo. Valencia, 2017.</li>
+            <li>&#8208; Transportarte. Valencia, 2017</li>
+            <li>&#8208; Jóvenes pintores. La Gaceta, Salamanca, 2015</li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Texts</h4>
-          <ul>
+        <section className="ml-2 mb-8">
+          <h4 className="ml-2 mb-2 font-semibold">Texts</h4>
+          <ul className="ml-4">
             <li>
-              -Exhibition sheet for the exhibition Coraza y Ornamento. Saceca,
+            &#8208; Exhibition sheet for the exhibition Coraza y Ornamento. Saceca,
               Sagunto 2023
             </li>
             <li>
-              -Text for the catalogue of the cycle Mi Fantástico Interior. La
+            &#8208; Text for the catalogue of the cycle Mi Fantástico Interior. La
               Casa Encendida, Madrid 2022{" "}
             </li>
             <li>
-              -Exhibition sheet for the exhibition Hacer Después. Saceca,
+            &#8208; Exhibition sheet for the exhibition Hacer Después. Saceca,
               Sagunto 2022
             </li>
             <li>
-              -Exhibition sheet for the exhibition Given Time. Intersticio,
+            &#8208; Exhibition sheet for the exhibition Given Time. Intersticio,
               London 2021
             </li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Duo</h4>
-          <ul>
+        <section className="ml-2 mb-8">
+          <h4 className="ml-2 mb-2 font-semibold">Duo</h4>
+          <ul className="ml-4">
             <li>
-              -Un todo ahora. Raúl Lorenzo and Carlos Peris. Saceca, Sagunto
+            &#8208; Un todo ahora. Raúl Lorenzo and Carlos Peris. Saceca, Sagunto
               2022
             </li>
             <li>
-              -Un perfume sin soporte, un gasto puro. Raúl Lorenzo and Marina G.
-              Guerreiro, Estrany de la Mota, Barcelona 2023
+            &#8208; Un perfume sin soporte, un gasto puro. Raúl Lorenzo and Marina
+              G. Guerreiro, Estrany de la Mota, Barcelona 2023
             </li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Solos</h4>
-          <ul>
+        <section className="ml-2 mb-8">
+          <h4 className="ml-2 mb-2 font-semibold">Solos</h4>
+          <ul className="ml-4">
             <li>
-              -Sin vuestro hierro caería la noche. Museo de Zamora, Zamora 2020
+            &#8208; Sin vuestro hierro caería la noche. Museo de Zamora, Zamora 2020
             </li>
-            <li>-HEEEE, Atarazanas. Valencia 2018</li>
-            <li>-La fiebre. Espacio Joven, Salamanca 2014</li>
+            <li>&#8208; HEEEE, Atarazanas. Valencia 2018</li>
+            <li>&#8208; La fiebre. Espacio Joven, Salamanca 2014</li>
           </ul>
         </section>
 
-        <section className="">
-          <h4>Group exhibitions</h4>
-          <ul>
+        <section className="ml-2">
+          <h4 className="ml-2 mb-2 font-semibold">Group exhibitions</h4>
+          <ul className="ml-4">
             <li>
-              -Becas de la Fundación Villalar. Palacio de las Cortes de CyL,
+            &#8208; Becas de la Fundación Villalar. Palacio de las Cortes de CyL,
               Valladolid 2020
             </li>
-            <li>-Exhibition. EMAC, Valencia 2019</li>
-            <li>-Open studio. Bilbaoarte, Bilbao 2017</li>
+            <li>&#8208; Exhibition. EMAC, Valencia 2019</li>
+            <li>&#8208; Open studio. Bilbaoarte, Bilbao 2017</li>
             <li>
-              -Open Studio. Residencias a Quemarropa, Las Cigarreras, Alicante
+            &#8208; Open Studio. Residencias a Quemarropa, Las Cigarreras, Alicante
               2016
             </li>
-            <li>-Morralla, Russafart, Valencia 2016</li>
-            <li>-Una Mirada Sustractiva. Campus de Vera de Valencia, 2016</li>
-            <li>-Carambola. Zamora 2015</li>
-            <li>-Non estamos. Vigo 2015</li>
-            <li>-San Marcos. Salamanca 2014</li>
-            <li>-Muestra Ciudad. Zamora 2014</li>
-            <li>-Exit. La gota de leche, Logroño 2014</li>
-            <li>-Visto por 25. La Alhóndiga, Zamora 2014</li>
+            <li>&#8208; Morralla, Russafart, Valencia 2016</li>
+            <li>&#8208; Una Mirada Sustractiva. Campus de Vera de Valencia, 2016</li>
+            <li>&#8208; Carambola. Zamora 2015</li>
+            <li>&#8208; Non estamos. Vigo 2015</li>
+            <li>&#8208; San Marcos. Salamanca 2014</li>
+            <li>&#8208; Muestra Ciudad. Zamora 2014</li>
+            <li>&#8208; Exit. La gota de leche, Logroño 2014</li>
+            <li>&#8208; Visto por 25. La Alhóndiga, Zamora 2014</li>
           </ul>
         </section>
       </main>
-      <aside className="my-12 flex flex-col border border-red-500">
-        <h2 className="">Contact</h2>
-        <section>
-          <p>
-            <span>Instagram</span> @raul.lorenzo.p
+      {/* Contact */}
+      <aside className="flex flex-col sticky top-28 self-start w-3/12">
+        <h2 className="text-4xl font-sans mb-6">Contact</h2>
+        <section className="ml-2">
+          <p className="mb-1 text-base font-normal">
+            <span className="font-medium">Instagram</span> &nbsp;&nbsp;&nbsp;
+            <a
+              href="https://www.instagram.com/raul.lorenzo.p/"
+              target="_blank"
+              className="font-normal"
+            >
+              @raul.lorenzo.p
+            </a>
           </p>
-          <p>
-            <span>Mail</span> raullorenzoperez@gmail.com
+          <p className="mb-1 text-base font-normal">
+            <span className="font-medium">Mail</span>{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raullorenzoperez@gmail.com
           </p>
-          <p>
-            <span>Phone</span> (+34) 675651605
+          <p className="mb-1 text-base font-normal">
+            <span className="font-medium">Phone</span>{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+34)
+            675651605
           </p>
         </section>
       </aside>

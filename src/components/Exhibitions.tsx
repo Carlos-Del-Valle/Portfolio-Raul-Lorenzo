@@ -1,11 +1,10 @@
-import React from "react";
-import NavSideBar from "./NavSideBar";
 import MainBody from "./MainBody";
+import NavSideBarExhibitions from "./NavSideBarExhibitions";
 
 const Exhibitions = () => {
   return (
-    <div>
-      <NavSideBar />
+    <div className="flex flex-row">
+      <NavSideBarExhibitions />
       <MainBody />
     </div>
   );

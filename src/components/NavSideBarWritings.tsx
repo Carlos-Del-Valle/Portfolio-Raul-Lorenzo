@@ -1,9 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-//import './App.scss'
+import { Link } from "react-scroll";
 
 const NavSideBarWritings = () => {
   return (

@@ -1,7 +1,4 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-
-// import { useState } from 'react'
 
 const NavBar = () => {
   return (

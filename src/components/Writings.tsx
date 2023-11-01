@@ -1,6 +1,3 @@
-import React from "react";
-import NavSideBar from "./NavSideBar";
-import MainBody from "./MainBody";
 import NavSideBarWritings from "./NavSideBarWritings";
 
 const Writings = () => {
@@ -19,7 +16,7 @@ const Writings = () => {
               Mi abuelo salía de paseo y algunas veces volvía con una piedra que
               regalaba a una de sus hijas.
               <br /> <br />
-              – Guarda esta piedra, mira qué bonita es.
+              &#8208; Guarda esta piedra, mira qué bonita es.
               <br /> <br />
               Ahora que él no está contemplo esas piedras y pienso en sus paseos
               por el campo y la mirada que escoge una piedra de entre otras

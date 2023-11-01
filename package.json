@@ -14,7 +14,10 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "@react-three/drei": "^9.87.1",
+    "@react-three/fiber": "^8.14.5",
+    "three": "^0.149.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
