@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const NavSideBarWritings = () => {
   return (
-    <nav className="sticky top-16 self-start left-0 w-56 m-0 shadow-md h-[45.5rem]">
+    <nav className="sticky top-36 self-start left-0 w-2/12 m-0 h-[88vh] nav-shadow">
       <ul className=" my-12 flex flex-col space-y-8">
         {/* 1 - Given Time */}
         <li className="nav-item">
@@ -55,7 +55,7 @@ const NavSideBarWritings = () => {
             smooth={true}
             offset={-100}
             duration={500}
-            className="whitespace-nowrap text-[11px] nav-item"
+            className="whitespace-nowrap nav-item"
           >
             Formas de Empezar un Cuento
           </Link>

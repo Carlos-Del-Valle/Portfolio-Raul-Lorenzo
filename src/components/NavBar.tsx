@@ -2,14 +2,17 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="flex border-2 border-red-500 w-screen h-16 items-center mt-0 justify-between px-8 sticky top-0 self-start z-10  bg-zinc-100">
-      <div className="flex flex-row border-2 border-green-500">
+    <nav className="flex w-screen h-[10vh] items-center mt-0 justify-between px-8 sticky top-0 self-start z-10  bg-zinc-100">
+      <div
+        className="flex flex-row text-4xl ml-8"
+        id="raullorenzo"
+      >
         <NavLink end to="/">
           Raul Lorenzo
         </NavLink>
       </div>
 
-      <ul className="flex flex-row border-2 border-blue-500 gap-8">
+      <ul className="flex flex-row gap-8 text-xl mr-16">
         <li>
           <NavLink to="/exhibitions">Exhibitions</NavLink>
         </li>

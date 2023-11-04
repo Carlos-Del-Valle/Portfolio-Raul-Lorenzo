@@ -396,6 +396,16 @@ const Writings = () => {
               corresponden con los motivos que antes reconocíamos: en su cambio
               de escala se han desnaturalizado, son superficies de material
               frágil sin función aparente.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </p>
           </article>
         </section>

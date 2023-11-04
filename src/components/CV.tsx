@@ -2,7 +2,7 @@ const CV = () => {
   return (
     <div className="flex flex-row mx-16 space-x-4">
       {/* CV */}
-      <main className="my-12 w-9/12">
+      <main className="my-24 w-9/12 ml-28">
         <h2 className="text-4xl font-sans mb-6">Curriculum Vitae</h2>
         <section className="ml-2 mb-8">
           <ul className="ml-2">
@@ -25,7 +25,7 @@ const CV = () => {
           <h4 className="ml-2 mb-2 font-semibold">Awards and calls</h4>
           <ul className="ml-4">
             <li>
-            &#8208; III Becas Fundación Villalar –Castilla y León de creación
+              &#8208; III Becas Fundación Villalar –Castilla y León de creación
               artística contemporánea. Valladolid 2019
             </li>
             <li>&#8208; PAMPAM! 2017. Valencia</li>
@@ -39,20 +39,20 @@ const CV = () => {
           <h4 className="ml-2 mb-2 font-semibold">Texts</h4>
           <ul className="ml-4">
             <li>
-            &#8208; Exhibition sheet for the exhibition Coraza y Ornamento. Saceca,
-              Sagunto 2023
+              &#8208; Exhibition sheet for the exhibition Coraza y Ornamento.
+              Saceca, Sagunto 2023
             </li>
             <li>
-            &#8208; Text for the catalogue of the cycle Mi Fantástico Interior. La
-              Casa Encendida, Madrid 2022{" "}
+              &#8208; Text for the catalogue of the cycle Mi Fantástico
+              Interior. La Casa Encendida, Madrid 2022{" "}
             </li>
             <li>
-            &#8208; Exhibition sheet for the exhibition Hacer Después. Saceca,
+              &#8208; Exhibition sheet for the exhibition Hacer Después. Saceca,
               Sagunto 2022
             </li>
             <li>
-            &#8208; Exhibition sheet for the exhibition Given Time. Intersticio,
-              London 2021
+              &#8208; Exhibition sheet for the exhibition Given Time.
+              Intersticio, London 2021
             </li>
           </ul>
         </section>
@@ -61,12 +61,12 @@ const CV = () => {
           <h4 className="ml-2 mb-2 font-semibold">Duo</h4>
           <ul className="ml-4">
             <li>
-            &#8208; Un todo ahora. Raúl Lorenzo and Carlos Peris. Saceca, Sagunto
-              2022
+              &#8208; Un todo ahora. Raúl Lorenzo and Carlos Peris. Saceca,
+              Sagunto 2022
             </li>
             <li>
-            &#8208; Un perfume sin soporte, un gasto puro. Raúl Lorenzo and Marina
-              G. Guerreiro, Estrany de la Mota, Barcelona 2023
+              &#8208; Un perfume sin soporte, un gasto puro. Raúl Lorenzo and
+              Marina G. Guerreiro, Estrany de la Mota, Barcelona 2023
             </li>
           </ul>
         </section>
@@ -75,7 +75,8 @@ const CV = () => {
           <h4 className="ml-2 mb-2 font-semibold">Solos</h4>
           <ul className="ml-4">
             <li>
-            &#8208; Sin vuestro hierro caería la noche. Museo de Zamora, Zamora 2020
+              &#8208; Sin vuestro hierro caería la noche. Museo de Zamora,
+              Zamora 2020
             </li>
             <li>&#8208; HEEEE, Atarazanas. Valencia 2018</li>
             <li>&#8208; La fiebre. Espacio Joven, Salamanca 2014</li>
@@ -86,17 +87,19 @@ const CV = () => {
           <h4 className="ml-2 mb-2 font-semibold">Group exhibitions</h4>
           <ul className="ml-4">
             <li>
-            &#8208; Becas de la Fundación Villalar. Palacio de las Cortes de CyL,
-              Valladolid 2020
+              &#8208; Becas de la Fundación Villalar. Palacio de las Cortes de
+              CyL, Valladolid 2020
             </li>
             <li>&#8208; Exhibition. EMAC, Valencia 2019</li>
             <li>&#8208; Open studio. Bilbaoarte, Bilbao 2017</li>
             <li>
-            &#8208; Open Studio. Residencias a Quemarropa, Las Cigarreras, Alicante
-              2016
+              &#8208; Open Studio. Residencias a Quemarropa, Las Cigarreras,
+              Alicante 2016
             </li>
             <li>&#8208; Morralla, Russafart, Valencia 2016</li>
-            <li>&#8208; Una Mirada Sustractiva. Campus de Vera de Valencia, 2016</li>
+            <li>
+              &#8208; Una Mirada Sustractiva. Campus de Vera de Valencia, 2016
+            </li>
             <li>&#8208; Carambola. Zamora 2015</li>
             <li>&#8208; Non estamos. Vigo 2015</li>
             <li>&#8208; San Marcos. Salamanca 2014</li>
@@ -107,7 +110,7 @@ const CV = () => {
         </section>
       </main>
       {/* Contact */}
-      <aside className="flex flex-col sticky top-28 self-start w-3/12">
+      <aside className="flex flex-col sticky top-56 my-24 self-start w-3/12">
         <h2 className="text-4xl font-sans mb-6">Contact</h2>
         <section className="ml-2">
           <p className="mb-1 text-base font-normal">
