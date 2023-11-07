@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const NavSideBarExhibitions = () => {
   return (
-    <nav className="sticky top-36 self-start left-0 w-2/12 m-0 h-[88vh] border border-red-500 nav-shadow">
+    <nav className="sticky top-36 self-start left-0 w-2/12 m-0 h-[88vh] nav-shadow">
       <ul className=" my-12 flex flex-col space-y-8">
         {/* 0 - Statement */}
         <li className="nav-item">

@@ -3,6 +3,7 @@ import Hero3dCanvas from "./Hero3dcanvas";
 const MainBody = () => {
   return (
     <main className="top-0 mt-10 w-10/12 border  border-red-500">
+      {/* Statement */}
       <div
         className="flex flex-row h-[95vh] justify-center translate-y-[-5rem]"
         id="statement"
@@ -36,45 +37,112 @@ const MainBody = () => {
           <Hero3dCanvas />
         </div>
       </div>
-      <div className="border-2 border-blue-500 w-50" id="heeee">
-        <div className="h-[95vh]">
-          <h1>HEEEE</h1>
+      {/* HEEEE */}
+      <div className="border-2 border-yellow-500 mx-12" id="heeee">
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex flex-row justify-end items-center">
+            <h2 className="text-7xl -translate-y-5">HEEEE</h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
-        <div className="h-[95vh] border-2 border-blue-500">
-          <h1>Contenido HEEEE 1/2</h1>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido HEEEE 1/2 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
-        <div className="h-[95vh] border-2 border-blue-500">
-          <h1>Contenido HEEEE 2/2</h1>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido HEEEE 2/2 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
       </div>
 
+      {/* Sin vuestro hierro caer;ia la noche */}
       <div
-        className="h-[95vh] border-2 border-blue-500"
+        className="border-2 border-yellow-500 mx-12"
         id="sinvuestrohierrocaerialanoche"
       >
-        <h1>SIN VUESTRO HIERRO CAERÍA LA NOCHE</h1>
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
+              Sin vuestro hierro caería la noche
+            </h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
-      <div className="h-[95vh] border-2 border-blue-500" id="escombroyruina">
-        <h1>ESCOMBRO Y RUINA</h1>
+
+      {/* Escombro y ruina */}
+      <div className="border-2 border-yellow-500 mx-12" id="escombroyruina">
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
+              Escombro y Ruina
+            </h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
-      <div className="h-[95vh] border-2 border-blue-500" id="funda">
-        <h1>FUNDA</h1>
+
+      {/* Funda */}
+      <div className="border-2 border-yellow-500 mx-12" id="funda">
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">Funda</h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
+
+      {/* BilbaoArte Residency */}
       <div
-        className="h-[95vh] border-2 border-blue-500"
+        className="border-2 border-yellow-500 mx-12"
         id="bilbaoarteresidency"
       >
-        <h1>BILBAOARTE RESIDENCY</h1>
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
+              Bilbaoarte residency
+            </h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
-      <div className="h-[95vh] border-2 border-blue-500" id="untodoahora">
-        <h1>UN TODO AHORA</h1>
+
+      {/* Un todo ahora */}
+      <div className="border-2 border-yellow-500 mx-12" id="untodoahora">
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
+              Un todo ahora
+            </h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
+
+      {/* Un perfume sin soporte un gasto puro */}
       <div
-        className="h-[95vh] border-2 border-blue-500"
+        className="border-2 border-yellow-500 mx-12"
         id="unperfumesinsoporteungastopuro"
       >
-        <h1>UN PERFUME SIN SOPORTE, UN GASTO PURO</h1>
+        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+          {/* 1st section */}
+          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
+            <h2 className="text-5xl -translate-y-5 whitespace-nowrap">
+              Un perfume sin soporte un gasto puro
+            </h2>
+          </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
+      <section className="pseudoFooter border border-pink-700 h-28 w-full"></section>
     </main>
   );
 };
