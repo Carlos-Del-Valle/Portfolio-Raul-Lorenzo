@@ -11,7 +11,7 @@ const NavSideBarExhibitions = () => {
             to="statement"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -25,7 +25,7 @@ const NavSideBarExhibitions = () => {
             to="heeee"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -39,7 +39,7 @@ const NavSideBarExhibitions = () => {
             to="sinvuestrohierrocaerialanoche"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item text-center"
           >
@@ -55,7 +55,7 @@ const NavSideBarExhibitions = () => {
             to="escombroyruina"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -69,7 +69,7 @@ const NavSideBarExhibitions = () => {
             to="funda"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -83,7 +83,7 @@ const NavSideBarExhibitions = () => {
             to="bilbaoarteresidency"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -98,7 +98,7 @@ const NavSideBarExhibitions = () => {
             to="untodoahora"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item"
           >
@@ -113,7 +113,7 @@ const NavSideBarExhibitions = () => {
             to="unperfumesinsoporteungastopuro"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-150}
             duration={500}
             className="whitespace-nowrap nav-item text-center"
           >

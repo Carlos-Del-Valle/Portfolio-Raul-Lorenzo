@@ -72,6 +72,31 @@ const MainBody = () => {
           </div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* sinvuestrohierrocaerialanoche 1/5 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* sinvuestrohierrocaerialanoche 2/5 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* sinvuestrohierrocaerialanoche 3/2 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* sinvuestrohierrocaerialanoche 4/5 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido sinvuestrohierrocaerialanoche 5/5 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
 
       {/* Escombro y ruina */}
@@ -85,6 +110,11 @@ const MainBody = () => {
           </div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Escombro y Ruina 1/1 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
 
       {/* Funda */}
@@ -94,6 +124,11 @@ const MainBody = () => {
           <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">Funda</h2>
           </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido funda 1/1 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
       </div>
@@ -112,6 +147,11 @@ const MainBody = () => {
           </div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Bilbaoarteresidency 1/1 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
       </div>
 
       {/* Un todo ahora */}
@@ -123,6 +163,26 @@ const MainBody = () => {
               Un todo ahora
             </h2>
           </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un todo ahora 1/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un todo ahora 2/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un todo ahora 3/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un todo ahora 4/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
       </div>
@@ -139,6 +199,26 @@ const MainBody = () => {
               Un perfume sin soporte un gasto puro
             </h2>
           </div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un perfume sin soporte un gasto puro 1/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un perfume sin soporte un gasto puro 2/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un perfume sin soporte un gasto puro 3/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
+          <div className="w-6/12 h-6/6 border-blue-700 border"></div>
+        </div>
+        <div className="h-[85vh] flex flex-row mb-20">
+          {/* Contenido Un perfume sin soporte un gasto puro 4/4 */}
+          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
           <div className="w-6/12 h-6/6 border-blue-700 border"></div>
         </div>
       </div>

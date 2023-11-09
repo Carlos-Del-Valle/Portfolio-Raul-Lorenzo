@@ -74,6 +74,20 @@ const NavSideBarWritings = () => {
             Coraza y Ornamento
           </Link>
         </li>
+        {/* 6 - Sobre la línea de la cabeza */}
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            to="sobrelalineadelacabeza"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="whitespace-nowrap nav-item"
+          >
+            Sobre la línea de la cabeza
+          </Link>
+        </li>
       </ul>
     </nav>
   );

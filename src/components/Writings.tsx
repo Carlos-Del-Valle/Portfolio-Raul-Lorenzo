@@ -159,6 +159,15 @@ const Writings = () => {
               en la que me distraje fijando la mirada. En el tiempo sin tiempo
               no existen las formas.
             </p>
+            <div className="flex justify-center items-center mt-24">
+              <img
+                src="imgs/exposicionsusana.webp"
+                alt="carta astral del escrito Hacer Después"
+                role="img"
+                title="Hacer Despuéscabeza"
+                className="w-[33.125rem] h-auto"
+              />
+            </div>
           </article>
           {/* 3 - Un Puente Une */}
           <article className="writing my-20 max-w-5xl" id="unpuenteune">
@@ -348,7 +357,7 @@ const Writings = () => {
               Coraza y Ornamento
             </h3>
             <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
-              Levanto la carta para el 6/4/2023 a las 18:50 en Sagunto. <br />{" "}
+              Levanto la carta para el 6/4/2023 a las 18:50 en Sagunto. <br />
               <br />
               (Plutón en Acuario la cúspide de V) el dramático nos invita a
               develar secretos, pero esta vez con un ánimo lúdico. Exploramos
@@ -396,6 +405,86 @@ const Writings = () => {
               corresponden con los motivos que antes reconocíamos: en su cambio
               de escala se han desnaturalizado, son superficies de material
               frágil sin función aparente.
+            </p>
+          </article>
+
+          {/* 6 Sobre la línea de la cabeza */}
+          <article
+            className="writing my-20 max-w-5xl "
+            id="sobrelalineadelacabeza"
+          >
+            <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
+              Sobre la línea de la cabeza
+            </h3>
+            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+              Levanto la carta para el 6 de octubre de 2023 a las 18:34 en
+              Sagunto, Valencia. <br /> <br />
+              La linea de horizonte (ascendente Piscis, descendente Virgo)
+              separará el cielo de la tierra. En este momento, en la tierra
+              habitan los celestiales (Neptuno, Júpiter, Urano), mientras que el
+              cielo es gobernado por los terrenales (Marte, Saturno) y los
+              subterráneos (Plutón). Surge así la necesidad de un interlocutor
+              (Sol en Libra en la casa 7) capaz de iniciar este intrincado
+              diálogo.
+              <br />
+              <br />
+              (Jupiter y Urano en Tauro en 2) Las ideas toman forma y aterrizan,
+              infectando el éter de presencia. Aunque la intención de este
+              ejercicio es disolver toda forma (Neptuno en Piscis en la casa 1),
+              su vocación (medio cielo en Sagitario) es hallar la manera de
+              otorgarle sentido y ser fijado en él. Así, la materialización se
+              convierte en un acto pedagógico que será deshecho y reconfigurado,
+              atravesando constantemente la transformación de la idea que se
+              convierte en forma y de la desmaterialización de la forma que se
+              transforma en evocación.
+              <br />
+              <br />
+              El responsable de este proceso (Plutón) ha de poner en crisis la
+              acción (cuadratura marte) y la recepción (quincuncio venus),
+              demostrando que, aunque parecen volitivas, no lo son tanto.
+              Encontrará virtud en este triángulo (trígono Urano, sextil
+              Neptuno) con lo que se encuentra más allá del control, ya que es
+              necesario perderse para experimentar una verdadera transformación.
+              <br />
+              <br />
+              El mediador (Sol Mercurio en Libra oposición Neptuno) se verá
+              frustrado por todo cuanto intente expresar, ya que las palabras se
+              evaporan antes de llegar a su destino. Su lenguaje debe aprender a
+              lidiar con imágenes y ensoñaciones, abandonando la noción de que
+              el concepto y el discurso son plenamente posibles. Se rinde,
+              revelando la imagen de un rayo.
+              <br />
+              <br />
+              El rayo es un puente vertical. (Jupiter y Urano en Tauro en casa
+              2) Éste busca, a su manera, puntos de baja resistencia, atajos
+              entre el cielo y la tierra que son revelados de manera súbita. El
+              mediador (Sol) ilumina un trazado que muestra durante un instante
+              aquel momento de inexplicable simpatía entre estos dos planos. El
+              cielo acumula tensión durante horas, lo hace de manera progresiva
+              y discreta, hasta que la tensión sobrepasa el umbral y descarga su
+              jerarquía (los rayos siempre viajan en la misma dirección).
+              Quienes no han vivido una tormenta nunca podrían haber imaginado
+              el rayo o que las tensiones entre el cielo y la tierra podrían
+              resolverse de esta manera. (Urano) muestra dos tiempos: un proceso
+              largo y lento que termina haciéndose insoportable y está implícito
+              en su resolución, que es instantánea, sorpresiva y a veces
+              destructora. Participa de un ritmo que entrelaza el proceso con el
+              instante, la historia con el acontecimiento y el discurso con la
+              imagen.
+              <br />
+              <br />
+              (Urano trígono Plutón)
+              <br />
+              <br />
+              El rayo impacta en el inframundo.
+              <div className="flex justify-center items-center mt-24">
+                <img
+                  src="imgs/exposicionsobrelalineadelacabeza.webp"
+                  alt="carta astral del escrito Sobre la línea de la cabeza"
+                  role="img"
+                  title="Sobre la línea de la cabeza"
+                />
+              </div>
               <br />
               <br />
               <br />

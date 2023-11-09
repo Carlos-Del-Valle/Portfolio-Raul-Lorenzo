@@ -1,21 +1,21 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
 import CanvasLoader from "./Loader";
+import { Mesh } from "three";
 
 const Computers = (isMobile) => {
   const computer = useGLTF("/prueba4/prueba4.gltf");
+  const myMesh = React.useRef(null);
 
-  //const myMesh = React.useRef(undefined);
-
-  // useFrame(({ clock }) => {
-  //   myMesh.current.rotation.x = clock.getElapsedTime();
-  // });
+  useFrame(({ clock }) => {
+    const a = clock.getElapsedTime();
+    myMesh.current.rotation.y = a;
+  });
 
   return (
     // <mesh ref={myMesh}>
-    <mesh>
+    <mesh ref={myMesh}>
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -61,7 +61,7 @@ const Hero3dCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      //frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}

@@ -3,10 +3,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="flex w-screen h-[10vh] items-center mt-0 justify-between px-8 sticky top-0 self-start z-10  bg-zinc-100">
-      <div
-        className="flex flex-row text-4xl ml-8"
-        id="raullorenzo"
-      >
+      <div className="flex flex-row text-4xl ml-11" id="raullorenzo">
         <NavLink end to="/">
           Raul Lorenzo
         </NavLink>
