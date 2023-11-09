@@ -164,7 +164,7 @@ const Writings = () => {
                 src="imgs/exposicionsusana.webp"
                 alt="carta astral del escrito Hacer Después"
                 role="img"
-                title="Hacer Despuéscabeza"
+                title="Hacer Después"
                 className="w-[33.125rem] h-auto"
               />
             </div>
