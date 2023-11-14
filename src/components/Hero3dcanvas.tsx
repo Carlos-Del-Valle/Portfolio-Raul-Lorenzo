@@ -39,7 +39,8 @@ const Computers = () => {
 };
 
 const Hero3dCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  //const [isMobile, setIsMobile] = useState(false);
+  const [setIsMobile] = useState(false);
 
   useEffect(() => {
     // Screen Size listener
