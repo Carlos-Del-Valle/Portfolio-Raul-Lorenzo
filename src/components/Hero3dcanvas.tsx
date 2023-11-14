@@ -1,10 +1,9 @@
-import React, { Suspense, useEffect, useRef, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "./Loader";
-import { Mesh } from "three";
 
-const Computers = (isMobile) => {
+const Computers = () => {
   const computer = useGLTF("/prueba4/prueba4.gltf");
   const myMesh = React.useRef(null);
 
@@ -72,7 +71,7 @@ const Hero3dCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Computers />
       </Suspense>
       <Preload all />
     </Canvas>
