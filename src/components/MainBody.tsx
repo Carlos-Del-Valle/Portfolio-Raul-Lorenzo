@@ -2,10 +2,10 @@ import Hero3dCanvas from "./Hero3dcanvas";
 
 const MainBody = () => {
   return (
-    <main className="top-0 mt-10 w-10/12 border  border-red-500">
+    <main className="top-0 mt-10 w-10/12 ">
       {/* Statement */}
       <div
-        className="flex flex-row h-[95vh] justify-center translate-y-[-5rem]"
+        className="flex flex-row h-[80vh] justify-center translate-y-[-5rem]"
         id="statement"
       >
         <div className="flex flex-col w-5/12 ml-10 h-3/6 translate-y-[20rem]">
@@ -38,17 +38,17 @@ const MainBody = () => {
         </div>
       </div>
       {/* HEEEE */}
-      <div className="border-2 border-yellow-500 mx-12" id="heeee">
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className="mx-12" id="heeee">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border flex justify-end items-center"></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6 flex justify-end items-center"></div>
+          <div className="w-6/12 h-6/6 flex justify-start items-center">
             <h2 className="text-7xl -translate-y-5">HEEEE</h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido HEEEE 1/2 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\HEEEE\HEEEE-9compressed.webp"
               alt="foto de la obra HEEEE"
@@ -56,12 +56,12 @@ const MainBody = () => {
               className="w-full h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\HEEEE\HEEEE-16compressed.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain mb-8"
             />
             <p className="w-5/12 h-auto ml-20 text-start">
               In "HEEEE", I explore various denaturalized heritage elements from
@@ -76,9 +76,9 @@ const MainBody = () => {
             </p>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido HEEEE 2/2 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\HEEEE\HEEEE-6compressed.webp"
               alt="foto de la obra HEEEE"
@@ -86,12 +86,12 @@ const MainBody = () => {
               className="w-full h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\HEEEE\HEEEE-1compressed.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 4 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain mb-8"
             />
 
             <div className="w-5/12 h-auto ml-20 text-start">
@@ -107,22 +107,19 @@ const MainBody = () => {
       </div>
 
       {/* Sin vuestro hierro caería la noche */}
-      <div
-        className="border-2 border-yellow-500 mx-12"
-        id="sinvuestrohierrocaerialanoche"
-      >
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className="mx-12" id="sinvuestrohierrocaerialanoche">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border "></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6"></div>
+          <div className="w-6/12 h-6/6 flex justify-start items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
               Sin vuestro hierro caería la noche
             </h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* sinvuestrohierrocaerialanoche 1/5 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <p className="w-5/12 h-auto ml-20 mt-24 text-start">
               In collaboration with the Zamora Museum, I sought to establish a
               dialogue with the preserved heritage objects there to reflect on
@@ -135,7 +132,7 @@ const MainBody = () => {
               drawings with oil stains.
             </p>
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin vuestro hierro-15.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -144,9 +141,9 @@ const MainBody = () => {
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* sinvuestrohierrocaerialanoche 2/5 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin-vuestro-hierro-23.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -154,7 +151,7 @@ const MainBody = () => {
               className="w-full h-full object-contain ml-10"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin-vuestro-hierro-20.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -163,10 +160,8 @@ const MainBody = () => {
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* sinvuestrohierrocaerialanoche 3/5 */}
-          {/* <div className="w-6/12 h-6/6 border-rose-700 border"></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border"></div> */}
           <img
             src="imgs\sinvuestrohierrocaerialanoche\sin vuestro hierro-14.webp"
             alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -174,9 +169,9 @@ const MainBody = () => {
             className="w-full h-full object-contain"
           />
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* sinvuestrohierrocaerialanoche 4/5 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin vuestro hierro-3.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -184,7 +179,7 @@ const MainBody = () => {
               className="w-11/12 h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-between">
+          <div className="w-6/12 h-6/6 flex flex-col justify-between">
             <div className="w-auto h-[45%] flex flex-row justify-end">
               <img
                 src="imgs\sinvuestrohierrocaerialanoche\sin vuestro hierro-5.webp"
@@ -193,7 +188,7 @@ const MainBody = () => {
                 className=" object-contain"
               />
             </div>
-            <div className="w-11/12 h-[45%] border border-red-900 flex flex-row justify-start">
+            <div className="w-11/12 h-[45%] flex flex-row justify-start">
               <img
                 src="imgs\sinvuestrohierrocaerialanoche\sin vuestro hierro-9.webp"
                 alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -203,14 +198,14 @@ const MainBody = () => {
             </div>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido sinvuestrohierrocaerialanoche 5/5 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin-vuestro-hierro-32.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain mb-8"
             />
             <div className="w-5/12 h-auto ml-20 text-start">
               <h4 className="font-bold mb-2">
@@ -223,7 +218,7 @@ const MainBody = () => {
               </p>
             </div>
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-center">
+          <div className="w-6/12 h-6/6 flex justify-center">
             <img
               src="imgs\sinvuestrohierrocaerialanoche\sin-vuestro-hierro-34.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -235,19 +230,19 @@ const MainBody = () => {
       </div>
 
       {/* Escombro y ruina */}
-      <div className="border-2 border-yellow-500 mx-12" id="escombroyruina">
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className="mx-12" id="escombroyruina">
+        <div className="h-[80vh] flex flex-row mb-20 ">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border "></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6  "></div>
+          <div className="w-6/12 h-6/6  flex justify-start items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
               Escombro y Ruina
             </h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Escombro y Ruina 1/1 */}
-          <div className="w-6/12 h-6/6 border-blue-700 border">
+          <div className="w-6/12 h-6/6 ">
             <img
               src="imgs\escombroyruina\IMG_7182 (1).webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -255,12 +250,12 @@ const MainBody = () => {
               className="w-7/12 object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\escombroyruina\IMG_7289 2 (1).webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain  mb-8"
             />
             <div className="w-5/12 h-auto ml-20 text-start">
               <h4 className="font-bold mb-2">Escombro y ruina, 2017</h4>
@@ -275,22 +270,22 @@ const MainBody = () => {
       </div>
 
       {/* Funda */}
-      <div className="border-2 border-yellow-500 mx-12" id="funda">
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className=" mx-12" id="funda">
+        <div className="h-[80vh] flex flex-row mb-20 ">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border "></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6  "></div>
+          <div className="w-6/12 h-6/6 flex justify-start items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">Funda</h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido funda 1/1 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\funda\funda-2.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-11/12 h-auto object-contain border border-yellow-700 mb-8"
+              className="w-11/12 h-auto object-contain mb-8"
             />
             <div className="w-5/12 h-auto ml-20 text-start">
               <h4 className="font-bold mb-2">Funda, 2018</h4>
@@ -308,7 +303,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               </p>
             </div>
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-between">
+          <div className="w-6/12 h-6/6  flex flex-col justify-between">
             <div className="w-auto h-[50%] flex flex-row justify-end">
               <img
                 src="imgs\funda\funda-4.webp"
@@ -317,7 +312,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
                 className=" object-contain"
               />
             </div>
-            <div className="w-11/12 h-[35%] border border-red-900 flex flex-row justify-start">
+            <div className="w-11/12 h-[35%] flex flex-row justify-start">
               <img
                 src="imgs\funda\funda-3.webp"
                 alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -330,22 +325,19 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
       </div>
 
       {/* BilbaoArte Residency */}
-      <div
-        className="border-2 border-yellow-500 mx-12"
-        id="bilbaoarteresidency"
-      >
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className=" mx-12" id="bilbaoarteresidency">
+        <div className="h-[80vh] flex flex-row mb-20 ">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border "></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6  "></div>
+          <div className="w-6/12 h-6/6 flex justify-start items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
               Bilbaoarte residency
             </h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Bilbaoarteresidency 1/1 */}
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-between">
+          <div className="w-6/12 h-6/6 flex flex-col justify-between">
             <div className="w-auto h-[45%] flex flex-row justify-start">
               <img
                 src="imgs\bilbaoarteresidency\bilbaoarte-2.webp"
@@ -355,7 +347,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               />
             </div>
             <div className="flex flex-row h-[35%] w-full">
-              <div className="w-5/12 h-auto ml-20 text-start border border-yellow-900">
+              <div className="w-5/12 h-auto ml-20 text-start">
                 <h4 className="font-bold mb-2 whitespace-nowrap">
                   Open doors, residence at Bilbaoarte, 2018
                 </h4>
@@ -366,7 +358,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
                   Bilbaoarte
                 </p>
               </div>
-              <div className="w-auto h-[100%] border border-red-900 flex flex-row justify-end">
+              <div className="w-auto h-[100%] flex flex-row justify-end">
                 <img
                   src="imgs\bilbaoarteresidency\bilbaoarte-5.webp"
                   alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -376,7 +368,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               </div>
             </div>
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-end">
+          <div className="w-6/12 h-6/6 flex justify-end">
             <img
               src="imgs\bilbaoarteresidency\bilbaoarte-16.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -388,20 +380,20 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
       </div>
 
       {/* Un todo ahora */}
-      <div className="border-2 border-yellow-500 mx-12" id="untodoahora">
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className="mx-12" id="untodoahora">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6 "></div>
+          <div className="w-6/12 h-6/6  flex justify-start items-center">
             <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
               Un todo ahora
             </h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un todo ahora 1/4 */}
-          <div className="w-3/12 h-6/6 border-rose-700 border flex flex-row justify-start">
-            <p className="w-9/12 h-auto border border-pink-700 mt-[3.7rem] ml-20">
+          <div className="w-3/12 h-6/6 flex flex-row justify-start">
+            <p className="w-9/12 h-auto mt-[3.7rem] ml-20">
               “Un Todo Ahora” was the exhibition that marked the inauguration of
               the Saceca space in Valencia. This artistic proposal was a
               collaboration between the artist Carlos Peris and myself, in which
@@ -418,7 +410,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               substitution, copying, and deception.
             </p>
           </div>
-          <div className="w-9/12 h-6/6 border-blue-700 border">
+          <div className="w-9/12 h-6/6">
             <img
               src="imgs\untodoahora\_GH_4838 (1).webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -427,9 +419,9 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un todo ahora 2/4 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\untodoahora\_GH_4913 (1).webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -437,7 +429,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               className="w-11/12 h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-end">
+          <div className="w-6/12 h-6/6 flex justify-end">
             <img
               src="imgs\untodoahora\_GH_4804 (1).webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -446,10 +438,8 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un todo ahora 3/4 */}
-          {/* <div className="w-6/12 h-6/6 border-rose-700 border"></div> */}
-          {/* <div className="w-6/12 h-6/6 border-blue-700 border"></div> */}
           <img
             src="imgs\untodoahora\_GH_4730 (1).webp"
             alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -457,9 +447,9 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             className="w-full h-full object-contain"
           />
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un todo ahora 4/4 */}
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-between">
+          <div className="w-6/12 h-6/6 flex flex-col justify-between">
             <div className="w-auto h-[45%] flex flex-row justify-start">
               <img
                 src="imgs\untodoahora\_GH_4936 (1).webp"
@@ -469,7 +459,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               />
             </div>
             <div className="flex flex-row h-[35%] w-full">
-              <div className="w-5/12 h-auto ml-20 text-start border border-yellow-900">
+              <div className="w-5/12 h-auto ml-20 text-start">
                 <h4 className="font-bold mb-2 whitespace-nowrap">
                   Un todo ahora, 2021
                 </h4>
@@ -479,7 +469,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
                   Saceca, Sagunto (Valencia)
                 </p>
               </div>
-              <div className="w-auto h-[100%] border border-red-900 flex flex-row justify-end">
+              <div className="w-auto h-[100%] flex flex-row justify-end">
                 <img
                   src="imgs\untodoahora\_GH_4795 (1).webp"
                   alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -490,7 +480,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             </div>
           </div>
 
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-end">
+          <div className="w-6/12 h-6/6 flex justify-end">
             <img
               src="imgs\untodoahora\_GH_4821 (1).webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -502,22 +492,19 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
       </div>
 
       {/* Un perfume sin soporte un gasto puro */}
-      <div
-        className="border-2 border-yellow-500 mx-12"
-        id="unperfumesinsoporteungastopuro"
-      >
-        <div className="h-[85vh] flex flex-row mb-20 border border-red-800">
+      <div className="mx-12" id="unperfumesinsoporteungastopuro">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* 1st section */}
-          <div className="w-6/12 h-6/6 border-rose-700 border"></div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex justify-start items-center">
+          <div className="w-6/12 h-6/6"></div>
+          <div className="w-6/12 h-6/6 flex justify-start items-center">
             <h2 className="text-5xl -translate-y-5 whitespace-nowrap">
               Un perfume sin soporte un gasto puro
             </h2>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un perfume sin soporte un gasto puro 1/4 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-26.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -525,12 +512,12 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               className="w-full h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-2.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain mb-8"
             />
             <p className="w-[51%] h-auto ml-20 text-start">
               “Un perfume sin soporte, un gasto puro” was a duo collaboration I
@@ -548,9 +535,9 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             </p>
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un perfume sin soporte un gasto puro 2/4 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-24.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -558,7 +545,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               className="w-full h-full object-contain ml-10"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-13.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -567,9 +554,9 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un perfume sin soporte un gasto puro 3/4 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-30.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -577,7 +564,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               className="w-full h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-9.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -586,9 +573,9 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
             />
           </div>
         </div>
-        <div className="h-[85vh] flex flex-row mb-20">
+        <div className="h-[80vh] flex flex-row mb-20">
           {/* Contenido Un perfume sin soporte un gasto puro 4/4 */}
-          <div className="w-6/12 h-6/6 border-rose-700 border">
+          <div className="w-6/12 h-6/6">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-25.webp"
               alt="foto de la obra Sin vuestro hierro caería la noche"
@@ -596,12 +583,12 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
               className="w-full h-full object-contain"
             />
           </div>
-          <div className="w-6/12 h-6/6 border-blue-700 border flex flex-col justify-center">
+          <div className="w-6/12 h-6/6 flex flex-col justify-center">
             <img
               src="imgs\unperfumesinsoporteungastopuro\Un perfume sin soporte, un gasto puro-3.webp"
               alt="foto de la obra HEEEE"
               title="HEEEE 2 de 4 "
-              className="w-full h-auto object-contain border border-yellow-700 mb-8"
+              className="w-full h-auto object-contain mb-8"
             />
             <div className="w-5/12 h-auto ml-20 text-start mb-8">
               <h4 className="font-bold mb-2">
@@ -624,7 +611,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
           </div>
         </div>
       </div>
-      <section className="pseudoFooter border border-pink-700 h-28 w-full"></section>
+      <section className="pseudoFooter h-28 w-full"></section>
     </main>
   );
 };

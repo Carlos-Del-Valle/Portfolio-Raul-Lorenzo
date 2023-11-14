@@ -26,18 +26,24 @@
   // box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap");
 
 #raullorenzo {
-  font-family: "Cinzel", serif;
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
 }
 
 @layer components {
+  // .nav-item {
+  //   @apply relative flex items-center justify-center h-12 w-44 mx-auto
+  //  hover:bg-slate-950
+  //  hover:text-zinc-100
+  //   rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  // }
+
   .nav-item {
-    @apply relative flex items-center justify-center h-12 w-44 mx-auto  
-   hover:bg-slate-950
-   hover:text-zinc-100
-    rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+    @apply relative flex items-center justify-center h-12 w-44 mx-auto
+    hover:transition-all duration-200 ease-linear cursor-pointer;
   }
 
   .nav-item .active {
@@ -51,7 +57,7 @@ html {
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
