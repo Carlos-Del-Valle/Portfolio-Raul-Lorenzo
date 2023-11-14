@@ -40,24 +40,24 @@ const Computers = () => {
 
 const Hero3dCanvas = () => {
   //const [isMobile, setIsMobile] = useState(false);
-  const [setIsMobile] = useState(false);
+  
 
-  useEffect(() => {
-    // Screen Size listener
-    const mediaQuery = window.matchMedia("(max-width:500px)");
-    // Setting the initial valua of 'isMobile' state
-    setIsMobile(mediaQuery.matches);
-    // Callback function handling media query changes
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-    // Callback function as a listnener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-    // Removing listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
+  // useEffect(() => {
+  //   // Screen Size listener
+  //   const mediaQuery = window.matchMedia("(max-width:500px)");
+  //   // Setting the initial valua of 'isMobile' state
+  //   setIsMobile(mediaQuery.matches);
+  //   // Callback function handling media query changes
+  //   const handleMediaQueryChange = (event) => {
+  //     setIsMobile(event.matches);
+  //   };
+  //   // Callback function as a listnener for changes to the media query
+  //   mediaQuery.addEventListener("change", handleMediaQueryChange);
+  //   // Removing listener when the component is unmounted
+  //   return () => {
+  //     mediaQuery.removeEventListener("change", handleMediaQueryChange);
+  //   };
+  // }, []);
 
   return (
     <Canvas
