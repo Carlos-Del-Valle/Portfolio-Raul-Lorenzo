@@ -9,18 +9,15 @@ const MainBody = () => {
         id="statement"
       >
         <div className="flex flex-col w-5/12 ml-10 h-3/6 translate-y-[20rem]">
-          <h3 className="writingTitle text-4xl mb-10 font-semibold italic font-sans">
-            Statement
-          </h3>
           <article className="max-w-5xl ml-12">
-            <p className="writingBody first-letter:text-4xl text-left text-2xl font-normal">
-              In my artistic work, I feel a persistent attraction towards
-              objects of cultural heritage, where history becomes an emotional
-              connection between the individual and the cultural elements that
-              shape their identity. Through my work, I explore concepts such as
-              the legibility of objects in their process of becoming ruins and
-              the application of techniques from disciplines such as
-              archaeology, museum conservation, and digital transformations.
+            <p className="writingBody text-left text-lg font-normal">
+              I feel a persistent attraction towards objects of cultural
+              heritage, where history becomes an emotional connection between
+              the individual and the cultural elements that shape their
+              identity. Through my work, I explore concepts such as the
+              legibility of objects in their process of becoming ruins and the
+              application of techniques from disciplines such as archaeology,
+              museum conservation, and digital transformations.
               <br />
               <br />
               My main focus is to work on projects that materialize into
@@ -112,7 +109,7 @@ const MainBody = () => {
           {/* 1st section */}
           <div className="w-6/12 h-6/6"></div>
           <div className="w-6/12 h-6/6 flex justify-start items-center">
-            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
+            <h2 className="text-6xl -translate-y-5">
               Sin vuestro hierro caería la noche
             </h2>
           </div>
@@ -235,9 +232,7 @@ const MainBody = () => {
           {/* 1st section */}
           <div className="w-6/12 h-6/6  "></div>
           <div className="w-6/12 h-6/6  flex justify-start items-center">
-            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
-              Escombro y Ruina
-            </h2>
+            <h2 className="text-6xl -translate-y-5">Escombro y Ruina</h2>
           </div>
         </div>
         <div className="h-[80vh] flex flex-row mb-20">
@@ -275,7 +270,7 @@ const MainBody = () => {
           {/* 1st section */}
           <div className="w-6/12 h-6/6  "></div>
           <div className="w-6/12 h-6/6 flex justify-start items-center">
-            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">Funda</h2>
+            <h2 className="text-6xl -translate-y-5 ">Funda</h2>
           </div>
         </div>
         <div className="h-[80vh] flex flex-row mb-20">
@@ -330,9 +325,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
           {/* 1st section */}
           <div className="w-6/12 h-6/6  "></div>
           <div className="w-6/12 h-6/6 flex justify-start items-center">
-            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
-              Bilbaoarte residency
-            </h2>
+            <h2 className="text-6xl -translate-y-5">Bilbaoarte residency</h2>
           </div>
         </div>
         <div className="h-[80vh] flex flex-row mb-20">
@@ -353,7 +346,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
                 </h4>
                 <p className="whitespace-nowrap">
                   Glazed ceramics, printed photography, <br />
-                  cement, earth, pine wood, polyester resin <br />
+                  concrete, soil, pine wood, polyester resin <br />
                   450x325x195 cm. <br />
                   Bilbaoarte
                 </p>
@@ -385,9 +378,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
           {/* 1st section */}
           <div className="w-6/12 h-6/6 "></div>
           <div className="w-6/12 h-6/6  flex justify-start items-center">
-            <h2 className="text-6xl -translate-y-5 whitespace-nowrap">
-              Un todo ahora
-            </h2>
+            <h2 className="text-6xl -translate-y-5">Un todo ahora</h2>
           </div>
         </div>
         <div className="h-[80vh] flex flex-row mb-20">
@@ -497,7 +488,7 @@ s/2rb7cyevli6gsaa/funda.pdf?dl=0)"
           {/* 1st section */}
           <div className="w-6/12 h-6/6"></div>
           <div className="w-6/12 h-6/6 flex justify-start items-center">
-            <h2 className="text-5xl -translate-y-5 whitespace-nowrap">
+            <h2 className="text-5xl -translate-y-5">
               Un perfume sin soporte un gasto puro
             </h2>
           </div>

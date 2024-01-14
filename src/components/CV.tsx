@@ -8,7 +8,7 @@ const CV = () => {
           <ul className="ml-2">
             <li>&#8208; Master of Arts in Art Production, UPV, Valencia</li>
             <li>&#8208; Bachelor of Arts in Fine Arts, Salamanca</li>
-            <li>&#8208; Founder and curator, Saceca, Sagunto</li>
+            <li>&#8208; Co-founder and curator, Saceca, Sagunto</li>
           </ul>
         </section>
 
@@ -126,11 +126,6 @@ const CV = () => {
           <p className="mb-1 text-base font-normal">
             <span className="font-medium">Mail</span>{" "}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raullorenzoperez@gmail.com
-          </p>
-          <p className="mb-1 text-base font-normal">
-            <span className="font-medium">Phone</span>{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+34)
-            675651605
           </p>
         </section>
       </aside>

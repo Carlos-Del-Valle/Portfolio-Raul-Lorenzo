@@ -12,7 +12,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
               Given Time
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               Mi abuelo salía de paseo y algunas veces volvía con una piedra que
               regalaba a una de sus hijas.
               <br /> <br />
@@ -102,7 +102,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic">
               Hacer Después
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               Neptuno asciende, Sol desciende. Lo que era totalidad se fragmenta
               en mil pedazos. El otro me espeja, lo que creía que yo era se ha
               perdido en estos fragmentos. El otro es la referencia y la norma.
@@ -174,7 +174,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic">
               Un Puente Une
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               Algunos filósofos unen palabras con guiones, obligando al lector a
               que preste atención al vínculo entre éstas. No es el mismo ser el
               del ser-ahí que el del ser-en-el-mundo. Yo mismo escribo deprisa
@@ -318,7 +318,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
               Formas de Empezar un Cuento
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               El manto indica el umbral tras el cual no hay más que contingencia
               y se desplaza sinuoso, a veces avanzando, otras retrocediendo.
               Cuando éste le gana terreno al mundo de lo manifestado todo es más
@@ -356,7 +356,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
               Coraza y Ornamento
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               Levanto la carta para el 6/4/2023 a las 18:50 en Sagunto. <br />
               <br />
               (Plutón en Acuario la cúspide de V) el dramático nos invita a
@@ -416,7 +416,7 @@ const Writings = () => {
             <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
               Sobre la línea de la cabeza
             </h3>
-            <p className="writingBody first-letter:text-4xl text-justify text-base font-normal">
+            <p className="writingBody text-justify text-base font-normal">
               Levanto la carta para el 6 de octubre de 2023 a las 18:34 en
               Sagunto, Valencia. <br /> <br />
               La linea de horizonte (ascendente Piscis, descendente Virgo)
