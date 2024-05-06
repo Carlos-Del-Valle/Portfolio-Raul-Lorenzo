@@ -9,10 +9,10 @@ const Writings = () => {
         <section className="writings mx-32 my-24 flex flex-col">
           {/* 1 - Given Time */}
           <article className="writing my-20 max-w-5xl" id="giventime">
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
+            <h3 className="text-[min(2.0vw,2.25rem)] my-12 font-semibold italic font-sans">
               Given Time
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <p className="text-[min(0.95vw,1rem)] leading-relaxed text-justify  font-normal">
               Mi abuelo salía de paseo y algunas veces volvía con una piedra que
               regalaba a una de sus hijas.
               <br /> <br />
@@ -99,10 +99,17 @@ const Writings = () => {
           </article>
           {/*  2 - Hacer Después*/}
           <article className="writing my-20 max-w-5xl" id="hacerdespues">
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic">
+            <h3 className="writingTitle text-[min(2.0vw,2.25rem)] my-12 font-semibold italic">
               Hacer Después
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <img
+              src="imgs/exposicionsusana.webp"
+              alt="carta astral del escrito Hacer Después"
+              role="img"
+              title="Hacer Después"
+              className="float-left flex h-auto w-5/12 mr-8 mb-8 mt-5"
+            />
+            <p className="writingBody text-justify text-[min(0.95vw,1rem)] leading-relaxed font-normal">
               Neptuno asciende, Sol desciende. Lo que era totalidad se fragmenta
               en mil pedazos. El otro me espeja, lo que creía que yo era se ha
               perdido en estos fragmentos. El otro es la referencia y la norma.
@@ -159,22 +166,13 @@ const Writings = () => {
               en la que me distraje fijando la mirada. En el tiempo sin tiempo
               no existen las formas.
             </p>
-            <div className="flex justify-center items-center mt-24">
-              <img
-                src="imgs/exposicionsusana.webp"
-                alt="carta astral del escrito Hacer Después"
-                role="img"
-                title="Hacer Después"
-                className="w-[33.125rem] h-auto"
-              />
-            </div>
           </article>
           {/* 3 - Un Puente Une */}
           <article className="writing my-20 max-w-5xl" id="unpuenteune">
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic">
+            <h3 className="writingTitle text-[min(2.0vw,2.25rem)] my-12 font-semibold italic">
               Un Puente Une
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <p className="writingBody text-justify text-[min(0.95vw,1rem)] leading-relaxed font-normal">
               Algunos filósofos unen palabras con guiones, obligando al lector a
               que preste atención al vínculo entre éstas. No es el mismo ser el
               del ser-ahí que el del ser-en-el-mundo. Yo mismo escribo deprisa
@@ -315,10 +313,10 @@ const Writings = () => {
             className="writing my-20 max-w-5xl"
             id="formasdeempezaruncuento"
           >
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
+            <h3 className="writingTitle text-[min(2.0vw,2.25rem)] leading-relaxed my-12 font-semibold italic font-sans">
               Formas de Empezar un Cuento
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <p className="writingBody text-justify  font-normal text-[min(0.95vw,1rem)] leading-relaxed ">
               El manto indica el umbral tras el cual no hay más que contingencia
               y se desplaza sinuoso, a veces avanzando, otras retrocediendo.
               Cuando éste le gana terreno al mundo de lo manifestado todo es más
@@ -351,12 +349,19 @@ const Writings = () => {
               anclado.
             </p>
           </article>
-          {/* 5 Corazon y Ornamento */}
+          {/* 5 Coraza y Ornamento */}
           <article className="writing my-20 max-w-5xl " id="corazayornamento">
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
+            <h3 className="writingTitle text-[min(2.0vw,2.25rem)] leading-relaxed my-12 font-semibold italic font-sans">
               Coraza y Ornamento
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <img
+              src="imgs/corazayornamento.webp"
+              alt="carta astral del escrito Coraza y Ornamento"
+              role="img"
+              title="Coraza y ornamento"
+              className="float-left flex h-auto w-5/12 mr-8 mb-8 mt-14"
+            />
+            <p className="writingBody text-justify text-[min(0.95vw,1rem)] leading-relaxed font-normal">
               Levanto la carta para el 6/4/2023 a las 18:50 en Sagunto. <br />
               <br />
               (Plutón en Acuario la cúspide de V) el dramático nos invita a
@@ -407,16 +412,22 @@ const Writings = () => {
               frágil sin función aparente.
             </p>
           </article>
-
           {/* 6 Sobre la línea de la cabeza */}
           <article
-            className="writing my-20 max-w-5xl "
+            className="writing my-20 max-w-5xl"
             id="sobrelalineadelacabeza"
           >
-            <h3 className="writingTitle text-4xl my-12 font-semibold italic font-sans">
+            <h3 className="writingTitle text-[min(2.0vw,2.25rem)] my-12 font-semibold italic font-sans">
               Sobre la línea de la cabeza
             </h3>
-            <p className="writingBody text-justify text-base font-normal">
+            <img
+              src="imgs/exposicionsobrelalineadelacabeza.webp"
+              alt="carta astral del escrito Sobre la línea de la cabeza"
+              role="img"
+              title="Sobre la línea de la cabeza"
+              className="float-left flex h-auto w-5/12 mr-8 mb-8 mt-5"
+            />
+            <p className="writingBody text-justify text-[min(0.95vw,1rem)] leading-relaxed font-normal">
               Levanto la carta para el 6 de octubre de 2023 a las 18:34 en
               Sagunto, Valencia. <br /> <br />
               La linea de horizonte (ascendente Piscis, descendente Virgo)
@@ -477,14 +488,6 @@ const Writings = () => {
               <br />
               <br />
               El rayo impacta en el inframundo.
-              <div className="flex justify-center items-center mt-24">
-                <img
-                  src="imgs/exposicionsobrelalineadelacabeza.webp"
-                  alt="carta astral del escrito Sobre la línea de la cabeza"
-                  role="img"
-                  title="Sobre la línea de la cabeza"
-                />
-              </div>
               <br />
               <br />
               <br />

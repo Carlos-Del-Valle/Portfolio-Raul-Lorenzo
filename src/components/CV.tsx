@@ -3,9 +3,14 @@ const CV = () => {
     <div className="flex flex-row mx-16 space-x-4">
       {/* CV */}
       <main className="my-24 w-9/12 ml-28">
-        <h2 className="text-4xl font-sans mb-6">Curriculum Vitae</h2>
+        <h2 className="text-[min(2.0vw,2.25rem)] font-sans mb-6">
+          Curriculum Vitae
+        </h2>
         <section className="ml-2 mb-8">
-          <ul className="ml-2">
+          <h4 className="ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Education
+          </h4>
+          <ul className="ml-2 text-[min(0.80vw,1rem)] leading-normal">
             <li>&#8208; Master of Arts in Art Production, UPV, Valencia</li>
             <li>&#8208; Bachelor of Arts in Fine Arts, Salamanca</li>
             <li>&#8208; Co-founder and curator, Saceca, Sagunto</li>
@@ -13,8 +18,10 @@ const CV = () => {
         </section>
 
         <section className="ml-2 mb-8">
-          <h4 className="ml-2 mb-2 font-semibold">Residencies</h4>
-          <ul className="ml-4">
+          <h4 className="ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Residencies
+          </h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normal">
             <li>&#8208; Bilbaoarte, Bilbao 2017</li>
             <li>&#8208; Residencias A Quemarropa, Alicante 2016</li>
             <li>&#8208; Espacio Matrioska, Os Blancos (Ourense), 2015</li>
@@ -22,10 +29,12 @@ const CV = () => {
         </section>
 
         <section className="ml-2 mb-8">
-          <h4 className="ml-2 mb-2 font-semibold">Awards and calls</h4>
-          <ul className="ml-4">
+          <h4 className="ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Awards and calls
+          </h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normal">
             <li>
-              &#8208; III Becas Fundación Villalar –Castilla y León de creación
+              &#8208; III Becas Fundación Villalar – Castilla y León de creación
               artística contemporánea. Valladolid 2019
             </li>
             <li>&#8208; PAMPAM! 2017. Valencia</li>
@@ -36,15 +45,17 @@ const CV = () => {
         </section>
 
         <section className="ml-2 mb-8">
-          <h4 className="ml-2 mb-2 font-semibold">Texts</h4>
-          <ul className="ml-4">
+          <h4 className=" ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Writings
+          </h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normal">
             <li>
               &#8208; Exhibition sheet for the exhibition Coraza y Ornamento.
               Saceca, Sagunto 2023
             </li>
             <li>
               &#8208; Text for the catalogue of the cycle Mi Fantástico
-              Interior. La Casa Encendida, Madrid 2022{" "}
+              Interior. La Casa Encendida, Madrid 2022
             </li>
             <li>
               &#8208; Exhibition sheet for the exhibition Hacer Después. Saceca,
@@ -58,8 +69,10 @@ const CV = () => {
         </section>
 
         <section className="ml-2 mb-8">
-          <h4 className="ml-2 mb-2 font-semibold">Duo</h4>
-          <ul className="ml-4">
+          <h4 className="ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Duos
+          </h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normal">
             <li>
               &#8208; Un todo ahora. Raúl Lorenzo and Carlos Peris. Saceca,
               Sagunto 2022
@@ -72,8 +85,8 @@ const CV = () => {
         </section>
 
         <section className="ml-2 mb-8">
-          <h4 className="ml-2 mb-2 font-semibold">Solos</h4>
-          <ul className="ml-4">
+          <h4 className="text-[min(0.80vw,1rem)] leading-normal">Solos</h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normla">
             <li>
               &#8208; Sin vuestro hierro caería la noche. Museo de Zamora,
               Zamora 2020
@@ -84,8 +97,10 @@ const CV = () => {
         </section>
 
         <section className="ml-2">
-          <h4 className="ml-2 mb-2 font-semibold">Group exhibitions</h4>
-          <ul className="ml-4">
+          <h4 className="ml-2 mb-2 font-semibold text-[min(0.80vw,1rem)] leading-normal">
+            Group exhibitions
+          </h4>
+          <ul className="ml-4 text-[min(0.80vw,1rem)] leading-normal">
             <li>
               &#8208; Becas de la Fundación Villalar. Palacio de las Cortes de
               CyL, Valladolid 2020
@@ -110,22 +125,25 @@ const CV = () => {
         </section>
       </main>
       {/* Contact */}
-      <aside className="flex flex-col sticky top-56 my-24 self-start w-3/12">
-        <h2 className="text-4xl font-sans mb-6">Contact</h2>
+      <aside className="flex flex-col sticky top-44 my-20 self-start w-3/12">
+        <h2 className="text-[min(2.0vw,2.25rem)] leading-normal font-sans mb-6">
+          Contact
+        </h2>
         <section className="ml-2">
-          <p className="mb-1 text-base font-normal">
-            <span className="font-medium">Instagram</span> &nbsp;&nbsp;&nbsp;
+          <p className="mb-1 font-normal text-[min(0.80vw,1rem)] leading-normal">
+            <span className="font-medium">Instagram</span>
+            &nbsp;&nbsp;&nbsp;
             <a
               href="https://www.instagram.com/raul.lorenzo.p/"
               target="_blank"
-              className="font-normal"
+              className="font-normal text-[min(0.80vw,1rem)] leading-normal"
             >
               @raul.lorenzo.p
             </a>
           </p>
-          <p className="mb-1 text-base font-normal">
-            <span className="font-medium">Mail</span>{" "}
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raullorenzoperez@gmail.com
+          <p className="mb-1 text-[min(0.80vw,1rem)] leading-normal font-normal">
+            <span className="font-medium">Mail</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raullorenzoperez@gmail.com
           </p>
         </section>
       </aside>

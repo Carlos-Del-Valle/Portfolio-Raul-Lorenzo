@@ -203,8 +203,9 @@ a:active {
 }
 
 html {
+  //overflow-y: scroll;
   scroll-behavior: smooth;
-  overscroll-behavior: none;
+  //overscroll-behavior: contain;
 }
 
 :root {
@@ -285,3 +286,62 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+// Responsive font sizes
+
+// Tailwind:
+// text-2xl sm:text-4xl lg:text-5xl
+// text-[min(12vw,2.5rem)]
+
+//@apply px-4 py-2 font-semibold text-white bg-blue-500 rounded hover:bg-blue-600;
+
+// +++ Important Note +++
+//
+// Tailwind CSS doesn't support dynamic values directly in class names, so here a memo of the responsive font strategy. The Tailwind classes here will be implemented without being encapsulated in CSS classes (Ex <p className = text-[min(4vw,1rem)]>Hello there> ). Leaving the unused css classes here for a future better workaround.
+
+// .baseText {
+//  @apply text-[min(0.80vw,1rem)] leading-7;
+// }
+
+// .artworkLabel {
+//   @apply text-[min(4vw,1rem)] leading-6;
+//  text-[min(0.80vw,1rem)] leading-6
+//
+// }
+
+//.cvTitle {
+//   @apply text-[min(2.0vw,2.25rem)];
+//  //It was text-4xl 2.25rem
+// }
+
+// .essayTitle {
+//   @apply text-[min(2.0vw,2.25rem)];
+//  //It was text-4xl 2.25rem
+// }
+
+// .asideNavlink{
+//   @apply text-[min(0.95vw,1rem)]
+// }
+
+// .headerNavlink {
+//   @apply text-[min(6vw,1.50rem)];
+// }
+
+// .artworkTitle {
+// @apply text-[min(2.50vw,3.50rem)] leading-[3rem]
+// }
+
+// .documentTitle {
+// text-[min(2.0vw,2.25rem)];
+// }
+
+// .mainTopNavLinks {
+// text-[min(1.2vw,1.25rem)]
+//}
+
+// writingsBaseText {
+  //text-[min(0.95vw,1rem)] leading-5 
+// }
+
+// leading-normal
+// leading-relaxed
